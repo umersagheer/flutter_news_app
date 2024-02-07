@@ -37,27 +37,29 @@ dependencies:
   get_it: ^7.6.0
 
   #dateFormat
-  intl: ^0.18.1
+  intl: ^0.19.0
 
   #database
   floor: ^1.4.2
 
   #make request to api
-  retrofit: ^3.0.1
+  retrofit: ^4.1.0
 
   #Hooks
-  flutter_hooks: ^0.18.3
+  flutter_hooks: ^0.20.5
 
   #cached image
   cached_network_image: ^3.2.0
+  dio: ^5.4.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.0
-  retrofit_generator: 3.0.1+1
-  floor_generator: 1.2.0
-  build_runner: 2.1.2
+  flutter_lints: ^3.0.1
+  retrofit_generator: ^8.1.0
+  floor_generator: ^1.4.2
+  build_runner: ^2.4.8
+  analyzer: 5.13.0
 
 # The following section is specific to Flutter packages.
 flutter:
